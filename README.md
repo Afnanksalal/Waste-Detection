@@ -8,6 +8,8 @@ This project implements a waste classification system that uses a custom YOLO mo
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Results](#results)
+- [Output Images](#output-images)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -56,6 +58,34 @@ This project implements a waste classification system that uses a custom YOLO mo
 
 4. The webcam feed will display detected waste items, and the classification status will be sent to the Arduino.
 
+## Results
+
+![Result](images/results.png)
+*Result*
+
+![Normalized Confusion Matrix](images/confusion_matrix_normalized.png)
+*Normalized Confusion Matrix*
+
+![Normalized Confusion Matrix](images/confusion_matrix_normalized.png)
+*Normalized Confusion Matrix*
+
+![PR Curve](images/PR_curve.png)
+*PR Curve*
+
+![P Curve](images/P_curve.png)
+*P Curve*
+
+![R Curve](images/R_curve.png)
+*R Curve*
+
+![F1 Curve](images/F1_curve.png)
+*F1 Curve*
+
+## Output Images
+
+![Output](images/output.jpg)
+*Output representation.*
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
@@ -63,4 +93,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```

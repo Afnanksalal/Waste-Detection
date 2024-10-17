@@ -25,7 +25,7 @@ burnable_items = {"paper", "biodegradable", "cardboard"}
 non_burnable_items = {"plastic", "metal", "garbage", "glass"}
 
 # Open the webcam
-webcam_index = 1
+webcam_index = 0
 cap = cv2.VideoCapture(webcam_index)
 
 if not cap.isOpened():

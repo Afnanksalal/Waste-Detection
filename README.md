@@ -70,9 +70,6 @@ This project implements a waste classification system that uses a custom YOLO mo
 ![Normalized Confusion Matrix](images/confusion_matrix_normalized.png)
 *Normalized Confusion Matrix*
 
-![Normalized Confusion Matrix](images/confusion_matrix_normalized.png)
-*Normalized Confusion Matrix*
-
 ![PR Curve](images/PR_curve.png)
 *PR Curve*
 

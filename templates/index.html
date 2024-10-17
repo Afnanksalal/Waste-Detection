@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YOLOv8 Object Detection</title>
+    <title>Object Detection</title>
     <style>
         body {
             display: flex;
@@ -23,7 +23,7 @@
             height: 480px;
             border: 2px solid #000;
             margin-top: 20px;
-            overflow: hidden;  /* Ensure no scrollbars */
+            overflow: hidden;
         }
         #detections {
             margin-top: 20px;
@@ -33,7 +33,7 @@
     </style>
 </head>
 <body>
-    <h1>YOLOv8 Object Detection</h1>
+    <h1>Object Detection</h1>
     <iframe src="/video_feed" frameborder="0" allowfullscreen scrolling="no"></iframe>
     <div id="detections">Loading detections...</div>
 
@@ -49,7 +49,6 @@
             }
         }
 
-        // Refresh detections every second
         setInterval(updateDetections, 1000);
     </script>
 </body>

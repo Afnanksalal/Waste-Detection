@@ -58,6 +58,10 @@ This project implements a waste classification system that uses a custom YOLO mo
 
 4. The webcam feed will display detected waste items, and the classification status will be sent to the Arduino.
 
+## Output
+
+![Output](images/output.jpg)
+
 ## Results
 
 ![Result](images/results.png)
@@ -80,11 +84,6 @@ This project implements a waste classification system that uses a custom YOLO mo
 
 ![F1 Curve](images/F1_curve.png)
 *F1 Curve*
-
-## Output Images
-
-![Output](images/output.jpg)
-*Output representation.*
 
 ## Contributing
 
